@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/AkshayT/Google Drive (atrikha@g.hmc.edu)/My Programming/Swift/MeanReversion/MeanReversion/Day.swift">
+      location = "group:MeanReversionPlayground.playground">
    </FileRef>
    <FileRef
       location = "group:MeanReversion.xcodeproj">

@@ -12,7 +12,7 @@
 		7ED93D2D205CAB1100F99C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED93D2B205CAB1100F99C66 /* Main.storyboard */; };
 		7ED93D2F205CAB1100F99C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED93D2E205CAB1100F99C66 /* Assets.xcassets */; };
 		7ED93D32205CAB1100F99C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED93D30205CAB1100F99C66 /* LaunchScreen.storyboard */; };
-		7ED93D3A205CC22D00F99C66 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93D39205CC22D00F99C66 /* Day.swift */; };
+		7ED93D3C205CF58000F99C66 /* DayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93D3B205CF58000F99C66 /* DayFactory.swift */; };
 		CA6D38CF39F599B9FE3022D5 /* Pods_MeanReversion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027F9137F6DDA383224C5BFA /* Pods_MeanReversion.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		7ED93D2E205CAB1100F99C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED93D31205CAB1100F99C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ED93D33205CAB1100F99C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ED93D39205CC22D00F99C66 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day.swift; path = "/Users/AkshayT/Google Drive (atrikha@g.hmc.edu)/My Programming/Swift/MeanReversion/MeanReversion/Day.swift"; sourceTree = "<absolute>"; };
+		7ED93D3B205CF58000F99C66 /* DayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFactory.swift; sourceTree = "<group>"; };
 		E83DCF5338184A34457E7FA6 /* Pods-MeanReversion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeanReversion.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeanReversion/Pods-MeanReversion.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,9 +72,9 @@
 		7ED93D26205CAB1100F99C66 /* MeanReversion */ = {
 			isa = PBXGroup;
 			children = (
-				7ED93D39205CC22D00F99C66 /* Day.swift */,
 				7ED93D27205CAB1100F99C66 /* AppDelegate.swift */,
 				7ED93D29205CAB1100F99C66 /* ViewController.swift */,
+				7ED93D3B205CF58000F99C66 /* DayFactory.swift */,
 				7ED93D2B205CAB1100F99C66 /* Main.storyboard */,
 				7ED93D2E205CAB1100F99C66 /* Assets.xcassets */,
 				7ED93D30205CAB1100F99C66 /* LaunchScreen.storyboard */,
@@ -223,8 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED93D2A205CAB1100F99C66 /* ViewController.swift in Sources */,
+				7ED93D3C205CF58000F99C66 /* DayFactory.swift in Sources */,
 				7ED93D28205CAB1100F99C66 /* AppDelegate.swift in Sources */,
-				7ED93D3A205CC22D00F99C66 /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
